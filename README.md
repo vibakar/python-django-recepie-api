@@ -1,5 +1,4 @@
-## Python Django Starter
-
+## Python Django Recepie App
 
 ```
 For link checking:

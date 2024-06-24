@@ -7,6 +7,7 @@ from core.models import (
     Tag,
 )
 
+
 class TagSerializer(serializers.ModelSerializer):
     """Serializer for tags."""
 
@@ -55,7 +56,6 @@ class RecipeSerializer(serializers.ModelSerializer):
 
         instance.save()
         return instance
-
 
 
 class RecipeDetailSerializer(RecipeSerializer):
